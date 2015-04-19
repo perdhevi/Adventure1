@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="terrain_atlas" tilewidth="32" tileheight="32">
+  <image source="terrain_atlas.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1025" name="meta_tiles" tilewidth="32" tileheight="32">
+  <image source="meta_tiles.png" width="64" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Corner" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYmTACkDCTFDMjEUMhlmAWAmKlaHqFJHEsOHBrE4ViJ2JUJcKxM1QdY5ArIJmhhMUw8yCgRQkNsiMJigGmcUEDGAAD4MMWg==
+  </data>
+ </layer>
+ <layer name="walkable" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjZGFgYKQQM0ExNjFseDCrw+U3QupwhQOp6gCt2wIj
+  </data>
+ </layer>
+ <layer name="exit" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF9AZKUIwNAAAIeABF
+  </data>
+ </layer>
+ <objectgroup name="ExitPoints" width="10" height="10">
+  <object name="ExitPoint1" type="Scene1_2.tmx,StartPoint1" x="96" y="288" width="64" height="32">
+   <properties>
+    <property name="Filename" value="Scene1_2.tmx"/>
+    <property name="StartPoint" value="StartPoint1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="StartPoints" width="10" height="10">
+  <object name="StartPoint1" x="144" y="112"/>
+  <object name="StartPoint2" x="112" y="272"/>
+ </objectgroup>
+</map>

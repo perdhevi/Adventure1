@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "cocos2d::CCTMXLayer::tileGIDAt(cocos2d::CCPoint const&amp;, cocos2d::ccTMXTileFlags_*):CCTMXLayer.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "AdventureScene::init():AdventureScene.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "starPoint">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AdventureScene::loadMap(char const*):AdventureScene.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "*start-&gt;valueForKey(&quot;X&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "map">
+            </PersistentString>
+            <PersistentString
+               value = "starPoint">
+            </PersistentString>
+            <PersistentString
+               value = "map-&gt;layerNamed(&quot;walkable&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AdventureScene::updateLogic(float):AdventureScene.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "nextLoc">
+            </PersistentString>
+            <PersistentString
+               value = "starPoint">
+            </PersistentString>
+            <PersistentString
+               value = "starDirection">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AdventureScene::checkSwitchMap():AdventureScene.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "((CCString *)dict-&gt;objectForKey(&quot;FileName&quot;))">
+            </PersistentString>
+            <PersistentString
+               value = "text[j]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ControlPad::ccTouchBegan(cocos2d::CCTouch*, cocos2d::CCEvent*):ControlPad.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "dPadRect">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="terrain_atlas" tilewidth="32" tileheight="32">
+  <image source="terrain_atlas.png" trans="ffffff" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="1025" name="meta_tiles" tilewidth="32" tileheight="32">
+  <image source="meta_tiles.png" width="64" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztllsOgjAQRVvBhQiyEFtdiDz+WAVs3CH6Ycy0TB9TmthJzg8JlzlDk44Q77oAzYdW5F+mflN5SOAUgfqnX4k8P+9kVAEe3/OKReuZi/0v6pxrJC8nD445u/RzA66O72HnjmPOLh5P4H5gD7E8ZmDMoJdQj62OPNvFo3jkSvGw0wHKA8o9hmVrJo8H0HtAucew7IHJYwIWDyj3GJa9Mnns7f2mnZKy29iyU3uEfO8fPLadV0VEC3uFfM+U/QLx2n7C
+  </data>
+ </layer>
+ <layer name="walkable" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1jEOACAIQ1Ew3v/MLqwuDWiVDn9FXmKiPs08GpE/0m5fObDzs0Ln/u7I3g/Zp6ODLTm4koMrObiqclS+9Sf/CnLIcctRNVuO3HuFtgB/BBYk
+  </data>
+ </layer>
+ <objectgroup name="StartPoints" width="50" height="20">
+  <object name="StartPoint1" x="128" y="48"/>
+  <object name="StartPoint2" x="1536" y="48"/>
+ </objectgroup>
+ <objectgroup name="ExitPoints" width="50" height="20">
+  <object name="ExitPoint1" type="Scene1_1.tmx,StartPoint2" x="96" y="0" width="64" height="32">
+   <properties>
+    <property name="Filename" value="Scene1_1.tmx"/>
+    <property name="StartPoint" value="StartPoint2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object Layer 3" width="50" height="20"/>
+</map>
