@@ -17,7 +17,7 @@ bool ControlPad::init()
         return false;
     }
     CCDirector *dir = CCDirector::sharedDirector();
-//    CCSize winsize = dir->getWinSize(
+//    CCSize winsize = dir->getWinSiz	e(
     CCSpriteFrameCache *cache = CCSpriteFrameCache::sharedSpriteFrameCache();
     cache->addSpriteFramesWithFile("controlPad.plist");
     
