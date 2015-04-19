@@ -924,28 +924,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		370D8CB017B6C04E004C9D00 /* Logic */ = {
-			isa = PBXGroup;
-			children = (
-				370D8CAE17B6C005004C9D00 /* Actor.h */,
-				370D8CAD17B6C005004C9D00 /* Actor.cpp */,
-				370924E917CCCA2800F71BB3 /* BattleActor.h */,
-				370924E817CCCA2800F71BB3 /* BattleActor.cpp */,
-			);
-			name = Logic;
-			sourceTree = "<group>";
-		};
-		370D8CB117B6C07E004C9D00 /* Scene */ = {
-			isa = PBXGroup;
-			children = (
-				370D8CA717B6BBB7004C9D00 /* AdventureScene.h */,
-				370D8CAB17B6BCB6004C9D00 /* AdventureScene.cpp */,
-				37F0AA4117BFED0400525BA2 /* ControlPad.h */,
-				37F0AA4017BFED0400525BA2 /* ControlPad.cpp */,
-			);
-			name = Scene;
-			sourceTree = "<group>";
-		};
 		37EA6D4B17AD79A400406A7C = {
 			isa = PBXGroup;
 			children = (
@@ -2151,8 +2129,14 @@
 		37EA70F817AD79AC00406A7C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				370D8CB117B6C07E004C9D00 /* Scene */,
-				370D8CB017B6C04E004C9D00 /* Logic */,
+				370D8CAE17B6C005004C9D00 /* Actor.h */,
+				370D8CAD17B6C005004C9D00 /* Actor.cpp */,
+				370924E917CCCA2800F71BB3 /* BattleActor.h */,
+				370924E817CCCA2800F71BB3 /* BattleActor.cpp */,
+				370D8CA717B6BBB7004C9D00 /* AdventureScene.h */,
+				370D8CAB17B6BCB6004C9D00 /* AdventureScene.cpp */,
+				37F0AA4117BFED0400525BA2 /* ControlPad.h */,
+				37F0AA4017BFED0400525BA2 /* ControlPad.cpp */,
 				37EA70F917AD79AC00406A7C /* AppDelegate.h */,
 				37EA70FA17AD79AC00406A7C /* AppDelegate.cpp */,
 			);
